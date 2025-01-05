@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+h1{
+    background-color: darkblue;
+    text-align: center;
+    color: aliceblue;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+
+#game{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+
+.choice{
+    height: 30vmin;
+    width: 30vmin;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 26vmin;
+    width: 26vmin;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choice:hover{
+    background-color: black;
+}
+
+
+#msg{
+    font-size: 1rem;
+}
+
+#score-card{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.scores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+#player-score, #comp-score{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+
+#msg-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#msg{
+    font-size: 2.2rem;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: 10px;
+}
